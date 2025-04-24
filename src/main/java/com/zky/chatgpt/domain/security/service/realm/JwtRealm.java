@@ -18,6 +18,7 @@ public class JwtRealm extends AuthorizingRealm {
 
     private static JwtUtil jwtUtil = new JwtUtil();
 
+    //判断传入的 AuthenticationToken 是否是我们需要的类型（JwtToken）
     @Override
     public boolean supports(AuthenticationToken token) {
         return token instanceof JwtToken;
