@@ -38,3 +38,4 @@ build/
 .DS_Store
 /src/main/resources/application.yml
 /src/main/java/com/zky/chatgpt/domain/security/service/realm/JwtRealm.java
+/src/main/java/com/zky/chatgpt/interfaces/WeiXinPortalController.java
